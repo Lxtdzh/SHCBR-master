@@ -96,7 +96,7 @@ def main():
     bi_graph = assist_data.ground_truth_b_i
 
     metrics = [Recall(20), NDCG(20), Recall(40), NDCG(40),]
-    loss_func = UIBLoss(alpha=args.alpha)
+    loss_func = SCHBRLoss(alpha=args.alpha)
     graph = [ui_graph, bi_graph, ub_graph]
     model = SCHBR(graph, device, args.dp, args.l2_norm).to(device)
     print("num parameters")
