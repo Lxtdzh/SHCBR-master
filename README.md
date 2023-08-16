@@ -1,6 +1,6 @@
 # SHCBR
 
-> A Global Structural Hypergraph Convolution Model for Bundle Recommendation
+> A Global Structural Hypergraph Convolutional Model for Bundle Recommendation
 # Environment Requirement
 The code has been tested running under Python 3.6.13. The required packages are as follows:
 
