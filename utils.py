@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 
-class SCHBRLoss(nn.Module):
+class SHCBRLoss(nn.Module):
     def __init__(self, alpha=0.4, reduction="sum"):
         super().__init__()
         self.reduction = reduction
