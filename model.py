@@ -46,7 +46,7 @@ def mix_Hypergraph(raw_graph, threshold=10):
     return H
 
 
-class SCHBR(nn.Module):
+class SHCBR(nn.Module):
     def __init__(self, raw_graph, device, dp, l2_norm, emb_size=64):
         super().__init__()
 
